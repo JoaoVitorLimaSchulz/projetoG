@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h1>cadastrar laboratorios</h1>
+
+    <form id="formClientes">
+        <label>Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label>localização:</label>
+        <input type="text" id="loc" required>
+
+        <label>informações</label>
+        <input type="text" id="info" required>
+
+        <label for="foto">foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+
+        <button type="submit">Cadastrar laboratorios</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>localização</th>
+                <th>informações</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody id="listaSalas"></tbody>
+    </table>
+</div>
+
+<script src=""></script>
+</body>
+</html>
